@@ -1,6 +1,7 @@
 {
   "projects": {
-    "default": "newsletter-83467"
+    "default": "newsletter-83467",
+    "staging": "newsletter-83467"
   },
   "targets": {},
   "etags": {
