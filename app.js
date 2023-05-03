@@ -17,11 +17,13 @@ const firebaseConfig = {
     messagingSenderId: "76838419442",
     appId: "1:76838419442:web:2485def2b4766a003b896b",
     measurementId: "G-Z9CQS9XJR8"
-  };
-  
+};
+
 // Initialize Firebase
 const myApp = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+const analytics = getAnalytics(myApp);
+
+// ...
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
