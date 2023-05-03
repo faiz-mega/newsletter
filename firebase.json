@@ -53,7 +53,7 @@
         "firebase-debug.*.log"
       ],
       "predeploy": [
-        "npm --prefix \"$RESOURCE_DIR\" run lint  && node \"$RESOURCE_DIR/app.js\""
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
       ]
     }
   ]
